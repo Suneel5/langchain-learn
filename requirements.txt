@@ -7,3 +7,10 @@ langchain_community
 langsmith
 fastapi
 uvicorn
+langserve
+sse_starlette
+bs4
+pypdf
+chromadb
+faiss-cpu
+arxiv
