@@ -58,4 +58,4 @@ if user_prompt:
         response = retrieval_chain.invoke({'input': user_prompt})
         st.write(response['answer'])
     except Exception as e:
-        st.error(f"Error during retrieval chain invocation: {e}")
+        st.error(f"Error during retrieval chain invocation: {e} ouu")
