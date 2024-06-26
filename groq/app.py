@@ -33,11 +33,11 @@ if "vectors" not in st.session_state:
     try:
         st.session_state.vectors = FAISS.from_documents(st.session_state.final_documents, st.session_state.embeddings)
     except ValueError as e:
-        st.error(f"Error while creating FAISS vectors: {e}")
+        st.error(f"Error while creating FAISS vectors: ou{e} he")
         st.stop()
 
 st.title("Chatgroq demo")
-llm = ChatGroq(api_key=groq_api_key, model_name="Gemma-7b-It")
+llm = ChatGroq(api_key=groq_api_key, model_name="Llama3-8b-8192")
 
 prompt_template = """Answer to questions based on provided context only.
 Please provide the most accurate answer based on the question.
