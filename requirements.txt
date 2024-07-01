@@ -18,3 +18,7 @@ wikipedia
 groq
 langchain-groq
 sentence_transformers
+ragstack-ai 
+datasets
+langchain-huggingface
+transformers
